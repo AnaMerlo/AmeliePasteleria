@@ -1,0 +1,174 @@
+[
+    {
+        "id": 1,
+        "title": "Torta de chocolate",
+        "description": "A cake with cream chocolate and strawberry",
+        "price": 23000,
+        "discountPercentage": 12.96,
+        "rating": 4.69,
+        "stock": 94,
+        "brand": "Apple",
+        "category": "Tortas",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+        "images": [
+            
+            "https://images.unsplash.com/photo-1578985545062-69928b1d9587"
+            
+        ]
+    },
+
+    {
+        "id": 2,
+        "title": "Torta con macarrons",
+        "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+        "price": 899,
+        "discountPercentage": 17.94,
+        "rating": 4.44,
+        "stock": 34,
+        "brand": "Apple",
+        "category": "Tortas",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
+        "images": [
+            "https://images.unsplash.com/photo-1562440499-64c9a111f713?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Torta con frutos del bosque",
+        "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+        "price": 1249,
+        "discountPercentage": 15.46,
+        "rating": 4.09,
+        "stock": 36,
+        "brand": "Samsung",
+        "category": "Tortas",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
+        "images": [
+            "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Macarrones",
+        "description": "OPPO F19 is officially announced on April 2021.",
+        "price": 280,
+        "discountPercentage": 17.91,
+        "rating": 4.3,
+        "stock": 123,
+        "brand": "OPPO",
+        "category": "Dulces",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg",
+        "images": [
+            "https://images.unsplash.com/photo-1558326567-98ae2405596b?q=80&w=1959&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Donuts",
+        "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+        "price": 499,
+        "discountPercentage": 10.58,
+        "rating": 4.09,
+        "stock": 32,
+        "brand": "Huawei",
+        "category": "Dulces",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
+        "images": [
+            "https://images.unsplash.com/photo-1551106652-a5bcf4b29ab6?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Pan de campo",
+        "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+        "price": 1749,
+        "discountPercentage": 11.02,
+        "rating": 4.57,
+        "stock": 83,
+        "brand": "Apple",
+        "category": "Panes",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
+        "images": [
+            "https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Croissant",
+        "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+        "price": 1499,
+        "discountPercentage": 4.15,
+        "rating": 4.25,
+        "stock": 50,
+        "brand": "Samsung",
+        "category": "Dulces",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+        "images": [
+            "https://images.unsplash.com/photo-1613929231151-d7571591259e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Arrollados",
+        "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+        "price": 1499,
+        "discountPercentage": 10.23,
+        "rating": 4.43,
+        "stock": 68,
+        "brand": "Microsoft Surface",
+        "category": "Dulces",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+        "images": [
+            "https://images.unsplash.com/photo-1509365465985-25d11c17e812?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Tarta de limón",
+        "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+        "price": 1099,
+        "discountPercentage": 11.83,
+        "rating": 4.54,
+        "stock": 96,
+        "brand": "Infinix",
+        "category": "Tartas dulces",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg",
+        "images": [
+            "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Tarta de manzana",
+        "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+        "price": 1099,
+        "discountPercentage": 6.18,
+        "rating": 4.43,
+        "stock": 89,
+        "brand": "HP Pavilion",
+        "category": "Tartas dulces",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+        "images": [
+            "https://images.unsplash.com/photo-1624299831638-82c15fcafd2b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+           
+        ]
+    },
+    {
+        "id": 100,
+        "title": "Cupcake",
+        "description": "Crystal chandelier maria theresa for 12 light",
+        "price": 47,
+        "discountPercentage": 16,
+        "rating": 4.74,
+        "stock": 133,
+        "brand": "YIOSI",
+        "category": "Dulces",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/100/thumbnail.jpg",
+        "images": [
+            "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            
+        ]
+    }
+]
