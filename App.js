@@ -1,42 +1,31 @@
-import { StyleSheet, View } from "react-native"
-import Home from "./src/screens/Home"
+import { Platform, StyleSheet, SafeAreaView, StatusBar } from "react-native"
 import { colors } from "./src/constants/colors"
-import Header from "./src/components/Header"
-import ItemListCategory from "./src/screens/ItemListCategory"
-import { useState } from "react"
 import { useFonts } from "expo-font"
-import * as SplashScreen from 'expo-splash-screen';
-import { useCallback } from "react"
+import Navigator from "./src/navigation/Navigator"
 
 const App = () => {
   const [fontsLoaded, fontError] = useFonts({
     'PlayFair': require('./assets/fonts/PlayfairDisplay-Regular.ttf'),
   });
 
-  const onLayoutRootView = useCallback(async () => {
-    if (fontsLoaded || fontError) {
-      await SplashScreen.hideAsync();
-    }
-  }, [fontsLoaded, fontError]);
 
-  const [categorySelected, setCategorySelected] = useState("")
-  console.log(categorySelected)
-
-  return (
-    <View style={styles.container}>
-      <Header title={"Amélie Pastelería"} />
-      {!categorySelected ? (
-        <Home setCategorySelected={setCategorySelected} />
-        ) : (
-        <ItemListCategory categorySelected={categorySelected} setCategorySelected ={setCategorySelected}/>
-      )}
-    </View>
+  if (!fontsLoaded || fontError) {
+    return null
+  }
+  
+  if(fontsLoaded && !fontError){
+  return(
+    <SafeAreaView style={styles.container}>
+      <Navigator/>
+    </SafeAreaView>
   )
+  }
+
 }
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 30,
+    marginTop: Platform.OS === 'android' ? StatusBar.currentHeight: 0,
     flex: 1,
     alignItems: "center",
     backgroundColor: colors.teal200,
